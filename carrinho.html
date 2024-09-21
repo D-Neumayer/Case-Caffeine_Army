@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Case Whiteteeth</title>
+    <script src="https://kit.fontawesome.com/d29ba8793f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="cadastre-se">
+        <h5><a href="#">cadastre-se</a> para ganhar 15% na primeira compra</h5>
+    </div>
+
+    <section id="header">
+
+        <div id="navbar">
+            <a href="#" class="menu-bars" id="show-menu">
+                <i class="fas fa-bars">
+                </i>
+                <span>Todos os Produtos</span>
+            </a>
+        </div>
+        <nav id="nav-menu">
+            <div id="navbar-toggle">
+                <a href="#" class="menu-bars" id="hide-menu"><i class="fas fa-bars nav-icon"></i></a>
+            </div>
+            <ul class="nav-items">
+                <div id="nav-section">
+                    <a href="index.html" class="nav-text">
+                        <h3>Home</h3>
+                    </a>
+                    <a href="#" class="nav-text">
+                        <h3>Pasta de Dente</h3>
+                    </a>
+                    <a href="#" class="nav-text">
+                        <h3>Escova de Dente</h3>
+                    </a>
+                    <a href="#" class="nav-text">
+                        <h3>Raspador de Língua</h3>
+                    </a>
+                    <a href="#" class="nav-text">
+                        <h3>Clareamento</h3>
+                    </a>
+                    <a href="#" class="nav-text">
+                        <h3>Aparelhos ortodônticos</h3>
+                    </a>
+                </div>
+            </ul>
+        </nav>
+        <a href="index.html" class="logo">
+            <img src="Images\estrelas-logo.png" class="logo-estrelas">
+            <h2>whiteteeth</h2>
+        </a>
+        <div class="nav-right">
+            <a href="#" id="nav-sign-btn">
+                <h3>Assinar Whiteteeth</h3>
+            </a>
+            <a href="#"><i class="fa-solid fa-circle-user"></i></a>
+            <a href="carrinho.html" class="active"><i class="fa-solid fa-cart-plus"></i></a>
+        </div>
+    </section>
+
+
+    <section id="cart">
+
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remover</td>
+                    <td>Imagem</td>
+                    <td>Produto</td>
+                    <td>Preço</td>
+                    <td>Quantidade</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+
+            <tbody id="shopping-cart">
+
+            </tbody>
+        </table>
+
+    </section>
+    <div id="label" class="empty-label"></div>
+    <section id="cart-add">
+        <div id="cupons">
+            <h3>Aplicar Cupom</h3>
+            <div>
+                <input type="text" placeholder="Digite seu Cupom">
+                <button class="coup-btn"> Aplicar</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Total</h3>
+            <table id="price-total">
+
+            </table>
+            <button>Continuar</button>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div id="img-footer-div">
+            <img src="Images/logo-footer.png" id="footer-img">
+        </div>
+        <div id="text-footer-div">
+            <h1>Quer dicas de hábitos de higiene bucal e ganhar desconto na primeira compra?</h1>
+            <div id="box-div">
+                <input id="text-box" maxlength="40" placeholder="Digite seu e-mail aqui" autocomplete="on" />
+                <button id="footer-btn">Enviar</button>
+            </div>
+
+        </div>
+    </section>
+    <script src="Data.js"></script>
+    <script src="carrinho.js"></script>
+</body>
+
+</html>
